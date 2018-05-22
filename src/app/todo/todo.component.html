@@ -1,10 +1,11 @@
 <div class="btn-container">
-  <button (click)="showList()">lista</button>
-  <button (click)="showGrid()">grid</button>
+  <button (click)="showList()">Lista</button>
+  <button (click)="showGrid()">Grid</button>
 </div>
 <div class="new-task-container">
   <input [(ngModel)]="newTask" />
-  <button (click)="addNewTask()">dodaj</button>
+  <button (click)="addNewTask()">Dodaj</button>
+  <!--Search: <input type="text" placeholder="Search..." ng-model="searchText" /> -->
 </div>
 <div class="todo-tasks">
   <app-list *ngIf="view" [source]="todoTasks" (removeItem)="removeItemFromArray($event)"></app-list>

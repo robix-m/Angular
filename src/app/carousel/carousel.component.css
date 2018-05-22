@@ -1,0 +1,16 @@
+#container {
+    width:76%;
+    margin: 1em auto;
+    padding:0;
+    background: #fff;
+}
+
+.items {
+    max-height: 180px;
+    background: #ECECEC;
+    border-right: 5px solid white;
+}
+
+.new-item-carousel-container {
+    text-align:center;
+}
