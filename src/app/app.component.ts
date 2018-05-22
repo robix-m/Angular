@@ -11,10 +11,10 @@ export class AppComponent {
 
   constructor() {
     this.items = [
-      { name: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Pozna%C5%84_UAM_Wydzia%C5%82_Matematyki_i_Informatyki_panorama.jpg/550px-Pozna%C5%84_UAM_Wydzia%C5%82_Matematyki_i_Informatyki_panorama.jpg'},
-      { name: 'http://picresize.com/dl.php?i=rsz_1cropped-245472.jpg'},
-      { name: 'http://picresize.com/dl.php?i=rsz_62687020.jpg'},
-      { name: 'http://picresize.com/dl.php?i=rsz_85878466.jpg'},
+      { name: 'assets/images/1.jpg'},
+      { name: 'assets/images/2.PNG'},
+      { name: 'assets/images/3.PNG'},
+      { name: 'assets/images/4.PNG'},
     ];
   }
 }
