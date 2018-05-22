@@ -1,0 +1,12 @@
+<div class="btn-container">
+  <button (click)="showList()">lista</button>
+  <button (click)="showGrid()">grid</button>
+</div>
+<div class="new-task-container">
+  <input [(ngModel)]="newTask" />
+  <button (click)="addNewTask()">dodaj</button>
+</div>
+<div class="todo-tasks">
+  <app-list *ngIf="view" [source]="todoTasks" (removeItem)="removeItemFromArray($event)"></app-list>
+  <app-grid *ngIf="!view" [source]="todoTasks" (removeItem)="removeItemFromArray($event)"></app-grid>
+</div>
