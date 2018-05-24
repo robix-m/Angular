@@ -1,6 +1,13 @@
-# UAMg1
+# UAM (indeks: 384004)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+
+## Opis
+
+Komponent z użyciem parametrów wejściowych (Input)
+- carousel (+dodawanie obrazkow)
+
++ wykres (generowanych losowo danych - przycisk "Losuj dane")
 
 ## Development server
 

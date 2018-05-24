@@ -1,7 +1,0 @@
-<div class="user-name" *ngIf="userService.isLogIn">
-  {{ userService.userName.toUpperCase() }}
-  <button (click)="userService.logOut()">Wyloguj</button>
-</div>
-<div class="log-in" *ngIf="!userService.isLogIn">
-  <button (click)="userService.logIn()">Zaloguj</button>
-</div>
