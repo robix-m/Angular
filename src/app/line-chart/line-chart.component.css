@@ -12,6 +12,11 @@
     margin-bottom: 20px;
 }
 
+.chart {
+    width:35%;
+    margin-left:auto; 
+    margin-right:auto;
+}
 table.center {
     margin-left:auto; 
     margin-right:auto;

@@ -1,16 +1,17 @@
 #container {
-    width:76%;
+    width:98%;
     margin: 1em auto;
     padding:0;
     background: #fff;
 }
 
 .items {
-    max-height: 180px;
-    background: #ECECEC;
+    max-height: 500px;
+    background: white;
     border-right: 5px solid white;
 }
 
 .new-item-carousel-container {
     text-align:center;
+    margin-bottom: 50px;
 }
